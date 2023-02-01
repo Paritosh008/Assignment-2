@@ -1,0 +1,18 @@
+#1. Write a Javascript function to check whether a triangle is equilateral,isosceles or scalene
+let num1 = 5, num2 = 5 , num3 = 5
+
+function Triangle(num1,num2,num3){
+    if(num1===num2 &&num2===num3)
+    {
+        console.log("Equilateral triangle")
+    }
+    else if(num1==num2 ||num1==num3 ||num2==num3)
+    {
+        console.log("isosceles triangle")
+    }
+    else{
+        console.log("scalene")
+    }
+
+}
+Triangle(num1,num2,num3);
