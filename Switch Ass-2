@@ -1,0 +1,37 @@
+#2. Write a function using switch case to find the grade of a student basedon marks obtained
+let grade = 77
+switch(true)
+{
+    case(90<=grade && 100>=grade):
+    console.log("S grade");
+    break;
+
+    case(80<=grade && 90>=grade):
+    console.log("A grade")
+    break;
+
+    case(70<=grade && 80>=grade):
+    console.log("B grade")
+    break;
+
+    case(60<=grade && 70>=grade):
+    console.log("C grade")
+    break;
+
+    case(50<=grade && 60>=grade):
+    console.log("D grade")
+    break;
+
+    case(40<=grade && 50>=grade):
+    console.log("E grade")
+    break;
+
+    case(0<=grade && 40>=grade):
+    console.log("Student has failed")
+    break;
+
+    default:
+        console.log("Invalid marks");
+        break;
+    
+}
