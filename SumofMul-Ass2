@@ -1,0 +1,16 @@
+#3. Write a JavaScript program to find the sum of the multiples of 3 and 5 under 1000
+var result = 0
+function sumofmultiples()
+{
+    for(i=1;i<1000;i++)
+    {
+        if(i%3==0 && i%5==0)
+        {
+         result = result + i;
+        }
+        
+    }
+    console.log(result)
+}
+
+sumofmultiples();
